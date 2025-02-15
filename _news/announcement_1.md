@@ -1,8 +1,10 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-02-15 01:46:00-0500
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Hello my personal website! Let's make a brithday for it😍. 
+
+Glad to see you there but it was still under construction. Hopefully it will be done soon.
