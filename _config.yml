@@ -11,9 +11,9 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Welcome to my personal website!
 footer_text: > 
-keywords: Larry Yinxi Li's Homepage # add your own keywords or leave empty
+keywords: Yinxi Li's Homepage # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🦦 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://larryinx.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -26,8 +26,10 @@ back_to_top: true # set to false to disable the back to top button
 # -----------------------------------------------------------------------------
 
 # repo color theme
-repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+# repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+# repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_light: rose
+repo_theme_dark: rose_pine
 repo_trophies:
   enabled: false
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
@@ -85,7 +87,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: YinX's Blog # blog_name will be displayed in your blog page
-blog_description: For fun and learning
+blog_description: For fun and learning (Still under construction, I'll try to create some learning notes and please stay tuned!)
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
