@@ -23,8 +23,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "dropdown-the-following-pages-are-under-construction-and-will-be-updated-soon",
-              title: "The following pages are under construction and will be updated soon!",
+        },{id: "dropdown-the-following-pages-are-under-construction",
+              title: "The following pages are under construction",
               description: "",
               section: "Dropdown",
               handler: () => {
