@@ -5,7 +5,7 @@ nav: true
 nav_order: 8
 dropdown: true
 children:
-  - title: The following pages are under construction and will be updated soon!
+  - title: The following pages are under construction
   - title: divider
   - title: publications
     permalink: /publications/
