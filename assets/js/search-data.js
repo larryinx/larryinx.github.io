@@ -9,12 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
+  },{id: "nav-repositories",
+          title: "Repositories",
+          description: "This page is a list of awesome GitHub repositories (will be updated with my own projects) and my github user page. These recommended repositories are truly worth checking out, especially for CUHK CS undergrads who are planning for their future career and applying for graduate school!!!!",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blog/";
+            window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
           title: "cv",
@@ -23,26 +23,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "dropdown-publications",
+        },{id: "dropdown-the-following-pages-are-under-construction-and-will-be-updated-soon",
+              title: "The following pages are under construction and will be updated soon!",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "";
+              },
+            },{id: "dropdown-publications",
               title: "publications",
               description: "",
               section: "Dropdown",
               handler: () => {
                 window.location.href = "";
               },
-            },{id: "dropdown-teaching",
-              title: "teaching",
+            },{id: "dropdown-blog",
+              title: "blog",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "";
-              },
-            },{id: "dropdown-repositories",
-              title: "repositories",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "";
+                window.location.href = "/blog/";
               },
             },{id: "post-a-post-with-image-galleries",
       
