@@ -20,10 +20,12 @@ $green-color-light: #ddffdd !default;
 $green-color-bright: #11d68b !default;
 $purple-color: #b509ac !default;
 // $light-purple-color: color.adjust($purple-color, $lightness: 25%);
-$light-purple-color: #c8a2c8 !default;
-$pink-color: #f7cac9 !default;
+$crimson-color: #a51c30 !default;
+$salmon-color: #ec8f9c !default;
+$pink-color: #f7c9cf !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #ffe134 !default;
+$orange-color-light: #f58025 !default;
 
 $grey-color: #828282 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
