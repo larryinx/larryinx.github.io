@@ -12,7 +12,7 @@ nav_order: 4
 
 ## GitHub Repositories
 
-**These recommended repositories are truly worth checking out, especially for ==CUHK CS undergrads== who are planning for their future career and applying for graduate school!!!!**
+These recommended repositories are truly worth checking out, **especially for <u>CUHK CS undergrads</u> (and probably other CS undergrads) who are planning for their <u>future career</u> and <u>applying for graduate school</u>!!!!**
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.github_repos %}
