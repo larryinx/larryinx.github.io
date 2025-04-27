@@ -5,12 +5,11 @@ nav: true
 nav_order: 8
 dropdown: true
 children:
+  - title: The following pages are under construction and will be updated soon!
+  - title: divider
   - title: publications
     permalink: /publications/
   - title: divider
-  - title: teaching
-    permalink: /teaching/
-  - title: divider
-  - title: repositories
-    permalink: /repositories/
+  - title: blog
+    permalink: /blog/
 ---
