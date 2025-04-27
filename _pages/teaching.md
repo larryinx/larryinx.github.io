@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: I'm a teaching assistant for the following courses:
+description: I'm a teaching assistant for the following courses
 nav: true
 nav_order: 5
 ---
@@ -12,7 +12,7 @@ It's my pleasure to help students in the courses I am responsible for, and I wil
 
 For courses where I am not fully responsible, please contact your assigned TA first. If you are unable to reach them, you may contact me, but I can only assist with academic questions or help you get in touch with your TA.
 
-## 2025 Spring
+#### 2025 Spring
 
 - CS 486: Introduction to Artificial Intelligence (partially assisting, not fully responsible)
 - (My full TA assignment to be determined)

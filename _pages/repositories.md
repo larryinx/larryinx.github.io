@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: Repositories
-description: This page is a list of awesome GitHub repositories (will be updated with my own projects) and my github user page. These recommended repositories are truly worth checking out, especially for CUHK CS undergrads who are planning for their future career and applying for graduate school!!!!
+description: This page is a list of awesome GitHub repositories (will be updated with my own projects) and my github user page.
 nav: true
 nav_order: 4
 ---
@@ -11,6 +11,8 @@ nav_order: 4
 {% if site.data.repositories.github_repos %}
 
 ## GitHub Repositories
+
+**These recommended repositories are truly worth checking out, especially for ==CUHK CS undergrads== who are planning for their future career and applying for graduate school!!!!**
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.github_repos %}
