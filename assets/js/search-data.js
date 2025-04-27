@@ -11,10 +11,17 @@ ninja.data = [{
     },
   },{id: "nav-repositories",
           title: "Repositories",
-          description: "This page is a list of awesome GitHub repositories (will be updated with my own projects) and my github user page. These recommended repositories are truly worth checking out, especially for CUHK CS undergrads who are planning for their future career and applying for graduate school!!!!",
+          description: "This page is a list of awesome GitHub repositories (will be updated with my own projects) and my github user page.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
+          },
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "I&#39;m a teaching assistant for the following courses",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
           },
         },{id: "nav-cv",
           title: "cv",
