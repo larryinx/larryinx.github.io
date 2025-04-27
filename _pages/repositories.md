@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /repositories/
-title: Repositories
+title: repositories
 description: This page is a list of awesome GitHub repositories (will be updated with my own projects) and my github user page.
 nav: true
 nav_order: 4
