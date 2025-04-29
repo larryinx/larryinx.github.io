@@ -4,19 +4,12 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-repo",
-          title: "Repo",
-          description: "This page is a list of awesome GitHub repositories (will be updated with my own projects) and my github user page.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
-        },{id: "nav-ta",
+  },{id: "nav-ta",
           title: "TA",
           description: "I&#39;m a teaching assistant for the following courses",
           section: "Navigation",
@@ -30,8 +23,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "dropdown-the-following-pages-are-under-construction",
-              title: "The following pages are under construction",
+        },{id: "dropdown-vault",
+              title: "Vault",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "";
+              },
+            },{id: "dropdown-pages-are-under-construction",
+              title: "Pages are under construction",
               description: "",
               section: "Dropdown",
               handler: () => {
@@ -462,6 +462,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("mailto:%79%69%6E%78%69.%6C%69@%75%77%61%74%65%72%6C%6F%6F.%63%61", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/larryinx", "_blank");
         },
       },{
         id: 'social-linkedin',
