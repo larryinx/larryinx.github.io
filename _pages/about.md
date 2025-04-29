@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: yinxi.li[at]uwaterloo.ca | Office <a href='https://cs.uwaterloo.ca'>DC</a> 2555
 

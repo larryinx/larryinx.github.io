@@ -5,11 +5,14 @@ nav: true
 nav_order: 8
 dropdown: true
 children:
-  - title: The following pages are under construction
+  - title: Vault
+    permalink: /repositories/
   - title: divider
+  - title: divider
+  - title: Pages are under construction
   - title: publications
     permalink: /publications/
-  - title: divider
   - title: blog
     permalink: /blog/
+  - title: divider
 ---

@@ -1,18 +1,18 @@
 ---
 layout: page
 permalink: /repositories/
-title: Repo
-description: This page is a list of awesome GitHub repositories (will be updated with my own projects) and my github user page.
-nav: true
+title: Vault
+description: This page is a list of awesome GitHub repositories (will be updated with my own projects).
+nav: false
 nav_order: 4
 ---
 
 
 {% if site.data.repositories.github_repos %}
 
-## GitHub Repositories
+## Recommended Repositories
 
-These recommended repositories are truly worth checking out, **especially for <u>CUHK CS undergrads</u> (and probably other CS undergrads) who are planning for their <u>future career</u> and <u>applying for graduate school</u>!!!!** Some of them are deployed as websites, please check the "About" section (should be on the right side of that page) or the README file for more details.
+These recommended repositories are truly worth checking out, **especially for <u>CS undergrads</u> who are planning for their <u>future career</u> and <u>applying for graduate school</u>!** Some of them are deployed as websites, please check the "About" section (should be on the right side of that page) or the README file for more details.
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.github_repos %}
