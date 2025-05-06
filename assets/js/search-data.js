@@ -9,29 +9,29 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-ta",
-          title: "TA",
-          description: "I&#39;m a teaching assistant for the following courses",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
-        },{id: "nav-cv",
+  },{id: "nav-cv",
           title: "CV",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "dropdown-vault",
+        },{id: "dropdown-ta",
+              title: "TA",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "";
+              },
+            },{id: "dropdown-vault",
               title: "Vault",
               description: "",
               section: "Dropdown",
               handler: () => {
                 window.location.href = "";
               },
-            },{id: "dropdown-pages-are-under-construction",
-              title: "Pages are under construction",
+            },{id: "dropdown-pages-below-are-under-construction",
+              title: "Pages below are under construction",
               description: "",
               section: "Dropdown",
               handler: () => {
