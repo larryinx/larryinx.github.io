@@ -5,14 +5,14 @@
       "location": "Waterloo, ON, Canada",
       "url": "https://uwaterloo.ca/",
       "area": "NLP and Software Engineering",
-      "studyType": "M.Math. in Computer Science",
-      "startDate": "Current"
+      "studyType": "M.Math. in Computer Science"
     }, 
     {
       "institution": "The Chinese University of Hong Kong, Hong Kong",
       "location": "Hong Kong SAR, China",
       "url": "https://www.cuhk.edu.hk/",
       "studyType": "B.Sc. in Computer Science",
+      "area": "ELITE Stream",
       "startDate": "2020-09-01",
       "endDate": "2024-07-31"
     },
@@ -39,7 +39,7 @@
     },
     {
       "language": "Cantonese",
-      "fluency": "Intermediate (but can't speak)",
+      "fluency": "Intermediate (but beginner-level speaker)",
       "icon": ""
     }
   ]

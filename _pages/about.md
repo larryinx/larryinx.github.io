@@ -30,8 +30,8 @@ Hey there, I'm Larry! Thanks for visiting my humble page. I'm currently a first-
 
 #### 💻 Research & Technical Interests
 - NLP - still exploring my master's thesis topic
-- LLMs for Software Engineering - improving code generation, code understanding using LLM techniques
-- Broad Interest in LLM Advancements - Retrieval Augmented Generation (RAG), Mixture of Experts (MoE), efficient fine-tuning methods (LoRA, QLoRA), Chain of Thought (CoT), alignment techniques (such as RLHF)
+- LLM for Software Engineering, LLM for Code
+- Broad Interest in LLM Advancements - Retrieval Augmented Generation (RAG), Mixture of Experts (MoE), efficient fine-tuning methods (LoRA, QLoRA), AI Agents, alignment techniques (such as RLHF)
 
 **🥂 Always Open for a Chat!**
 I'm always happy to discuss anything, whether it's research-related or just a casual conversation. **Feel free to reach out to me**, as long as you come in with a friendly attitude and no ill intentions 👉👈.
