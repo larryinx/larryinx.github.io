@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-blog",
           title: "blog",
-          description: "",
+          description: "Loading... Should be redirected to my Notion blog real quick.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
