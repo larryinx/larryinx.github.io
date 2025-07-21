@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /blog/
-title: blog
+title: Blog
 nav: true
 nav_order: 1
 redirect: https://childlike-feeling-7e1.notion.site/Yinx-s-Blog-2068e948699d8165839fe02b570d2ee2

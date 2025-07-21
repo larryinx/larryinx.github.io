@@ -29,11 +29,9 @@ latest_posts:
 Hey there, I'm Larry! Thanks for visiting my humble page. I'm currently a first-year Computer Science M.Math. student at the [University of Waterloo](https://uwaterloo.ca), advised by Prof. [Pengyu Nie](https://pengyunie.github.io). Before that, I received my B.Sc. in Computer Science (ELITE Stream) from [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/english/index.html), and my final year project was advised by Prof. [Eric Lo](https://appsrv.cse.cuhk.edu.hk/~ericlo). I also spent a semester as an exchange student at [ETH Zürich](https://ethz.ch/en.html) during my undergraduate, where I explored advanced topics in Machine Learning and Software Engineering.
 
 #### 💻 Research & Technical Interests
-- NLP - still exploring my master's thesis topic
+- NLP - Tokenization (Currently working on adversarial attacks, but there's a lot more to explore...)
 - LLM for Software Engineering, LLM for Code
-- Broad Interest in LLM Advancements - Retrieval Augmented Generation (RAG), Mixture of Experts (MoE), efficient fine-tuning methods (LoRA, QLoRA), AI Agents, alignment techniques (such as RLHF)
+- Broad Interest in LLM Advancements on Everything (e.g., code, math, data, etc.)
 
 **🥂 Always Open for a Chat!**
-I'm always happy to discuss anything, whether it's research-related or just a casual conversation. **Feel free to reach out to me**, as long as you come in with a friendly attitude and no ill intentions 👉👈.
-
-Several projects I'm currently working on haven't been published yet. Wish me luck for some meaningful publications in the near future🤞🏻.
+I'm always happy to discuss anything, whether it's research-related or just a casual conversation. **Feel free to reach out to me**, as long as you come in with a friendly attitude 👉👈.
