@@ -10,7 +10,7 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-blog",
-          title: "blog",
+          title: "Blog",
           description: "Loading... Should be redirected to my Notion blog real quick.",
           section: "Navigation",
           handler: () => {
