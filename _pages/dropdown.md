@@ -8,8 +8,8 @@ children:
   - title: CV
     permalink: /cv/
   - title: divider
-  - title: TA
-    permalink: /teaching/
+  - title: Service
+    permalink: /service/
   - title: divider
   - title: Vault
     permalink: /repositories/
