@@ -23,8 +23,8 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "";
               },
-            },{id: "dropdown-ta",
-              title: "TA",
+            },{id: "dropdown-service",
+              title: "Service",
               description: "",
               section: "Dropdown",
               handler: () => {
