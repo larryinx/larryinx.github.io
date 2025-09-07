@@ -11,6 +11,10 @@ nav_order: 5
 
 - ASE 2025 ([Conference Website](https://conf.researchr.org/home/ase-2025))
 
+#### 🍁 2025 Fall TA
+
+- CS 346: Application Development ([Course Website](https://student.cs.uwaterloo.ca/~cs346/1259/))
+
 #### 🔆 2025 Spring TA
 
 - CS 246: Object-Oriented Software Development ([Course Website](https://student.cs.uwaterloo.ca/~cs246/S25/index.shtml))
