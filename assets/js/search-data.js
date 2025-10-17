@@ -404,7 +404,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "projects-project-1",
+            },},{id: "news-new-preprint-tokdrift-when-llm-speaks-in-subwords-but-code-speaks-in-grammar-is-now-available-on-arxiv-1️⃣-llms-subword-tokenizers-don-t-align-well-with-programming-language-grammar-tiny-whitespace-or-renaming-tweaks-amp-gt-different-tokenization-amp-gt-flipped-outputs-2️⃣-our-framework-tokdrift-systematically-tests-9-code-llms-on-3-tasks-showing-their-sensitivity-to-tokenization-changes-up-to-60-outputs-change-under-a-single-semantic-preserving-rewrite-3️⃣-if-your-win-margin-is-1-pp-beware-spacing-amp-amp-naming-can-swing-results",
+          title: '📌 New preprint: TokDrift: When LLM Speaks in Subwords but Code Speaks in...',
+          description: "",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
