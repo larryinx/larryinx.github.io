@@ -13,7 +13,4 @@ children:
   - title: divider
   - title: Vault
     permalink: /repositories/
-  - title: divider
-  - title: publications (under construction)
-    permalink: /publications/
 ---

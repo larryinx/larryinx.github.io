@@ -3,7 +3,7 @@ layout: default
 permalink: /blog/
 title: Blog
 nav: true
-nav_order: 1
+nav_order: 2
 redirect: https://childlike-feeling-7e1.notion.site/Yinx-s-Blog-2068e948699d8165839fe02b570d2ee2
 description: Loading... Should be redirected to my Notion blog real quick.
 # pagination:
