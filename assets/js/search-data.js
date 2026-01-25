@@ -9,9 +9,9 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications-preprints",
-          title: "Publications / Preprints",
-          description: "publications in reversed chronological order.",
+  },{id: "nav-publications",
+          title: "Publications",
+          description: "Selected publications / preprints.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -23,7 +23,28 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-a-post-with-image-galleries",
+        },{id: "dropdown-cv",
+              title: "CV",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "";
+              },
+            },{id: "dropdown-service",
+              title: "Service",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "";
+              },
+            },{id: "dropdown-miscellaneous",
+              title: "Miscellaneous",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "";
+              },
+            },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
       
