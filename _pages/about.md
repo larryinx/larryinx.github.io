@@ -30,7 +30,7 @@ Hey there, I'm Larry! Thanks for visiting my humble page. I'm currently a first-
 
 My research is supported by grants from Prof. Nie's research group, funded by the Natrual Sciences and Engineering Research Council of Canada (NSERC) and the University of Waterloo.
 
-#### 💻 Research & Technical Interests
+#### 💻 Research Interests
 - Understanding and Improving the Internal Mechanisms of LLMs and DLMs: tokenization, reasoning, representation learning
 - LLM Applications in Software Engineering, Math, and Scientific Discovery
 

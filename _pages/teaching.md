@@ -9,8 +9,8 @@ nav_order: 5
 
 #### 📝 Sub-Reviews
 
-- ASE 2025 ([Conference Website](https://conf.researchr.org/home/ase-2025))
 - ARR Oct 2026 ([ACL Rolling Review](https://aclrollingreview.org/))
+- ASE 2025 ([Conference Website](https://conf.researchr.org/home/ase-2025))
 
 #### 📚 Teaching Assistant
 
