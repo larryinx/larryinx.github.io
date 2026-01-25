@@ -7,7 +7,6 @@ first_name: Larry, Yinxi
 middle_name:
 last_name: Li
 contact_note: >
-  Still working on it...
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Welcome to my personal website!
 footer_text: > 
@@ -361,7 +360,6 @@ imagemagick:
     - ".jpeg"
     - ".png"
     - ".tiff"
-    - ".gif"
   output_formats:
     webp: "-quality 85"
 
