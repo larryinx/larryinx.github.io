@@ -9,8 +9,8 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
-          title: "Publications",
+  },{id: "nav-publications-preprints",
+          title: "Publications / Preprints",
           description: "publications in reversed chronological order.",
           section: "Navigation",
           handler: () => {
@@ -23,28 +23,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "dropdown-cv",
-              title: "CV",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "";
-              },
-            },{id: "dropdown-service",
-              title: "Service",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "";
-              },
-            },{id: "dropdown-vault",
-              title: "Vault",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "";
-              },
-            },{id: "post-a-post-with-image-galleries",
+        },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
       
@@ -399,8 +378,8 @@ ninja.data = [{
     },{id: "news-hello-my-personal-website-let-s-make-a-brithday-for-it-glad-to-see-you-there-but-it-was-still-under-construction-hopefully-it-will-be-done-soon",
           title: 'Hello my personal website! Let’s make a brithday for it😍. Glad to see...',
           description: "",
-          section: "News",},{id: "news-acknowledgements",
-          title: 'Acknowledgements',
+          section: "News",},{id: "news-homepage-acknowledgements",
+          title: 'Homepage Acknowledgements',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
