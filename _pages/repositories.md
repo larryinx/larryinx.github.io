@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /repositories/
-title: Vault
+permalink: /misc/
+title: Miscellaneous
 description: This page is a list of awesome GitHub repositories (will be updated with my own projects).
 nav: false
 nav_order: 4
@@ -9,8 +9,6 @@ nav_order: 4
 
 
 {% if site.data.repositories.github_repos %}
-
-## Recommended Repositories
 
 These recommended repositories are probably worth checking out, **especially for <u>CS undergrads</u> who are planning for their <u>future career</u> and <u>applying for graduate school</u>.** Some of them are deployed as websites, please check the "About" section (should be on the right side of that page) or the README file for more details.
 

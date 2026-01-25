@@ -4,15 +4,15 @@
       "institution": "University of Waterloo, Waterloo, ON, Canada",
       "location": "Waterloo, ON, Canada",
       "url": "https://uwaterloo.ca/",
-      "area": "NLP and Software Engineering",
-      "studyType": "M.Math. in Computer Science"
+      "studyType": "M.Math. in Computer Science",
+      "startDate": "2025-05-01",
+      "endDate": "2027-04-30(expected)"
     }, 
     {
       "institution": "The Chinese University of Hong Kong, Hong Kong",
       "location": "Hong Kong SAR, China",
       "url": "https://www.cuhk.edu.hk/",
       "studyType": "B.Sc. in Computer Science",
-      "area": "ELITE Stream",
       "startDate": "2020-09-01",
       "endDate": "2024-07-31"
     },
@@ -20,7 +20,6 @@
       "institution": "ETH Zürich, Zürich, Switzerland",
       "location": "Zürich, Switzerland",
       "url": "https://ethz.ch/en.html",
-      "area": "Machine Learning and Software Engineering",
       "studyType": "Exchange Student (D-INFK)",
       "startDate": "2023-02-15",
       "endDate": "2023-09-01"

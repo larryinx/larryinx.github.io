@@ -2,14 +2,14 @@
 layout: about
 title: About
 permalink: /
-subtitle: yinxi.li[at]uwaterloo.ca | Office <a href='https://cs.uwaterloo.ca'>DC</a> 2555
+subtitle: yinxi.li[at]uwaterloo.ca | SWAG Lab <a href='https://cs.uwaterloo.ca'>DC</a> 2555
 
 profile:
   align: right
   image: self.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Carpe diem, com respeito e amor</p>
+    <p>Amor fati, carpe diem</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -28,9 +28,10 @@ latest_posts:
 #### 🦄 About Me | Currently Master’s Student in CS
 Hey there, I'm Larry! Thanks for visiting my humble page. I'm currently a first-year Computer Science M.Math. student at the [University of Waterloo](https://uwaterloo.ca), advised by [Pengyu Nie](https://pengyunie.github.io). Before that, I received my B.Sc. in Computer Science (ELITE Stream) from [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/english/index.html), and my final year project was advised by [Eric Lo](https://appsrv.cse.cuhk.edu.hk/~ericlo). I also spent a semester as an exchange student at [ETH Zürich](https://ethz.ch/en.html) during my undergraduate, where I explored advanced topics in Machine Learning and Software Engineering.
 
-#### 💻 Research & Technical Interests
-- NLP - Tokenization
-- LLM for Software Engineering, LLM for Code, LLM for Math
+My research is supported by grants from Prof. Nie's research group, funded by the Natrual Sciences and Engineering Research Council of Canada (NSERC) and the University of Waterloo.
 
-**🥂 Always Open for a Chat!**
-I'm always happy to discuss anything, whether it's research-related or just a casual conversation. **Feel free to reach out to me**, as long as you come in with a friendly attitude 👉👈.
+#### 💻 Research & Technical Interests
+- Understanding and Improving the Internal Mechanisms of LLMs and DLMs: tokenization, reasoning, representation learning
+- LLM Applications in Software Engineering, Code, Mathematics, and Scientific Discovery
+
+I am open to academic and research collaborations and welcome any questions or discussions.

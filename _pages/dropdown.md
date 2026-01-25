@@ -11,6 +11,6 @@ children:
   - title: Service
     permalink: /service/
   - title: divider
-  - title: Vault
-    permalink: /repositories/
----
+  - title: Miscellaneous
+    permalink: /misc/
+  ---

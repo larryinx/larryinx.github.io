@@ -10,15 +10,12 @@ nav_order: 5
 #### 📝 Sub-Reviews
 
 - ASE 2025 ([Conference Website](https://conf.researchr.org/home/ase-2025))
+- ARR Oct 2026 ([ACL Rolling Review](https://aclrollingreview.org/))
 
-#### 🍁 2025 Fall TA
+#### 📚 Teaching Assistant
 
-- CS 346: Application Development ([Course Website](https://student.cs.uwaterloo.ca/~cs346/1259/))
+- ❄️ 2026 Winter: CS 446 ([Software Design and Architecture](https://pengyunie.github.io/cs446-1261/))
+- 🍁 2025 Fall: CS 346 ([Application Development](https://student.cs.uwaterloo.ca/~cs346/1259/))
+- 🌱2025 Spring: CS 246 ([Object-Oriented Software Development](https://student.cs.uwaterloo.ca/~cs246/S25/index.shtml))
 
-#### 🔆 2025 Spring TA
-
-- CS 246: Object-Oriented Software Development ([Course Website](https://student.cs.uwaterloo.ca/~cs246/S25/index.shtml))
-- CS 486: Introduction to Artificial Intelligence (partially) ([Course Website](https://yuntiandeng.com/teaching/spring2025/cs486-introduction-to-artificial-intelligence/))
-
-#### 📚 Notes for Students Seeking Assistance
-It's my pleasure to help students in the courses I am responsible for, and I will try my best to answer your questions or make suggestions for your course projects.🤓 For courses where I am not fully responsible, please contact your assigned TA first.😍
+I will try my best to answer your questions or make suggestions for your course works.🤓
