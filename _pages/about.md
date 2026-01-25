@@ -32,7 +32,7 @@ My research is supported by grants from Prof. Nie's research group, funded by th
 
 #### 💻 Research & Technical Interests
 - Understanding and Improving the Internal Mechanisms of LLMs and DLMs: tokenization, reasoning, representation learning
-- LLM Applications in Software Engineering, Code, Mathematics, and Scientific Discovery
+- LLM Applications in Software Engineering, Math, and Scientific Discovery
 
 I am open to academic and research collaborations and welcome any questions or discussions.
 
