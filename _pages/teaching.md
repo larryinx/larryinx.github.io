@@ -18,8 +18,8 @@ nav_order: 5
 - 🍁 2025 Fall: CS 346 ([Application Development](https://student.cs.uwaterloo.ca/~cs346/1259/))
 - 🌱2025 Spring: CS 246 ([Object-Oriented Software Development](https://student.cs.uwaterloo.ca/~cs246/S25/index.shtml))
 
+I will try my best to answer your questions or make suggestions for your course works.🤓
+
 #### 📖 Reading Group
 
 - UWaterloo Code Intelligence: 2025 Fall, 2026 Winter
-
-I will try my best to answer your questions or make suggestions for your course works.🤓
