@@ -1,18 +1,81 @@
 ---
 ---
 
+@inproceedings{li-etal-2026-tokdrift,
+    title = "{T}ok{D}rift: When {LLM} Speaks in Subwords but Code Speaks in Grammar",
+    author = "Li, Yinxi  and
+      Deng, Yuntian  and
+      Nie, Pengyu",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.acl-long.2199/",
+    doi = "10.18653/v1/2026.acl-long.2199",
+    pages = "47605--47629",
+    ISBN = "979-8-89176-390-6",
+    bibtex_show={true},
+    preview={TokDrift_example.gif},
+    pdf={Arxiv_TokDrift.pdf},
+    selected={true},
+    code={https://github.com/uw-swag/tokdrift},
+    abstract={Large language models (LLMs) for code rely on subword tokenizers, such as byte-pair encoding (BPE), learned from mixed natural language text and programming language code but driven by statistics rather than grammar. As a result, semantically identical code snippets can be tokenized differently depending on superficial factors such as whitespace or identifier naming. To measure the impact of this misalignment, we introduce TokDrift, a framework that applies semantic-preserving rewrite rules to create code variants differing only in tokenization. Across nine code LLMs, including large ones with over 30B parameters, even minor formatting changes can cause substantial shifts in model behavior. Layer-wise analysis shows that the issue originates in early embeddings, where subword segmentation fails to capture grammar token boundaries. Our findings identify misaligned tokenization as a hidden obstacle to reliable code understanding and generation, highlighting the need for grammar-aware tokenization for future code LLMs.},
+    url={https://arxiv.org/abs/2510.14972},
+    arxiv={2510.14972},
+}
 
-@article{YinxiETAL25TokDrift,
-  title={{TokDrift}: When {LLM} Speaks in Subwords but Code Speaks in Grammar},
-  author={Yinxi Li and Yuntian Deng and Pengyu Nie},
-  journal={arXiv preprint arXiv:2510.14972},
-  year={2025},
-  url={https://arxiv.org/abs/2510.14972},
-  arxiv={2510.14972},
-  pdf={Arxiv_TokDrift.pdf},
-  preview={TokDrift_example.gif},
-  code={https://github.com/uw-swag/tokdrift},
-  abstract={Large language models (LLMs) for code rely on subword tokenizers, such as byte-pair encoding (BPE), learned from mixed natural language text and programming language code but driven by statistics rather than grammar. As a result, semantically identical code snippets can be tokenized differently depending on superficial factors such as whitespace or identifier naming. To measure the impact of this misalignment, we introduce TokDrift, a framework that applies semantic-preserving rewrite rules to create code variants differing only in tokenization. Across nine code LLMs, including large ones with over 30B parameters, even minor formatting changes can cause substantial shifts in model behavior. Layer-wise analysis shows that the issue originates in early embeddings, where subword segmentation fails to capture grammar token boundaries. Our findings identify misaligned tokenization as a hidden obstacle to reliable code understanding and generation, highlighting the need for grammar-aware tokenization for future code LLMs.},
-  bibtex_show={true},
-  selected={true}
+
+@inproceedings{li2026learning,
+  title={Learning Multi-step Reasoning via Persistent Latent State Propagation},
+  author={Yinxi Li and Jiaao Chen and Fang Wu and Jiakai Yu and Heli Qi and Weihao Xuan and Haokai Zhao and Pengyu Nie and Di Jin and Xiangru Tang},
+  booktitle={Workshop on Latent {\&} Implicit Thinking {\textendash} Going Beyond CoT Reasoning},
+  year={2026},
+  url={https://openreview.net/forum?id=Dcv4B1UCuW},
+  selected={true},
+}
+
+
+@misc{wu2026positionhiddencostsmeasurement,
+      title={Position: The Hidden Costs and Measurement Gaps of Reinforcement Learning with Verifiable Rewards}, 
+      author={Fang Wu and Aaron Tu and Weihao Xuan and Heli Qi and Xu Huang and Qingcheng Zeng and Shayan Talaei and Yijia Xiao and Peng Xia and Xiangru Tang and Yuchen Zhuang and Yinxi Li and Bing Hu and Hanqun Cao and Wenqi Shi and Rui Yang and Nan Liu and Huaxiu Yao and Ge Liu and Li Erran Li and Amin Saberi and Naoto Yokoya and Jure Leskovec and Yejin Choi},
+      year={2026},
+      eprint={2509.21882},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2509.21882}, 
+}
+
+
+@inproceedings{wu2026proteor,
+  title={Proteo-R1: Reasoning Foundation Models for De Novo Protein Design},
+  author={Fang Wu and Weihao Xuan and Heli Qi and Hanqun Cao and Heng-Jui Chang and Zeqi Zhou and Li Erran Li and Haokai Zhao and Jian Ma and Zijian Carl Ma and Yu-Chi Cheng and Kuan Pang and Xiangru Tang and Zehong Wang and Guanlue Li and Hanchen Wang and Kejun Ying and Pan Lu and Chiho Im and Seungju Han and Peng Xia and Tinson Xu and Yinxi Li and Deyao Zhu and Pheng-Ann Heng and Naoto Yokoya and Masashi Sugiyama and Jure Leskovec and Yejin Choi},
+  booktitle={Forty-third International Conference on Machine Learning},
+  year={2026},
+  url={https://openreview.net/forum?id=dDowWwInhz}
+}
+
+
+@misc{wu2026noiseratermetalearnednoisevaluation,
+      title={NoiseRater: Meta-Learned Noise Valuation for Diffusion Model Training}, 
+      author={Fang Wu and Haokai Zhao and Da Xing and Hanqun Cao and Tinson Xu and Yanchao Li and Xiangru Tang and Zehong Wang and Aaron Tu and Kuan Pang and Hanchen Wang and Hongbin Lin and Zeqi Zhou and Yinxi Li and Peng Xia and Li Erran Li and Molei Tao and Jure Leskovec and Aditya Joshi and Yejin Choi},
+      year={2026},
+      eprint={2605.08144},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2605.08144}, 
+}
+
+@misc{hotsko2026code2lorahypernetworkgeneratedadapterscode,
+      title={Code2LoRA: Hypernetwork-Generated Adapters for Code Language Models under Software Evolution}, 
+      author={Liliana Hotsko and Yinxi Li and Yuntian Deng and Pengyu Nie},
+      year={2026},
+      eprint={2606.06492},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2606.06492}, 
 }
