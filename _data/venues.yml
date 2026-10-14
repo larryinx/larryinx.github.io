@@ -1,9 +1,17 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"ACL":
+  url: https://2026.aclweb.org/
+  color: "#c8102e"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ICML":
+  url: https://icml.cc/Conferences/2026
+  color: "#1f5aa6"
 
-"Vision":
-  color: "#009f36"
+"ICLR WS":
+  url: https://iclr.cc/Conferences/2026
+  color: "#3d7f8c"
+
+"Preprint":
+  color: "#6c757d"
+
+"Survey":
+  color: "#7a6a53"

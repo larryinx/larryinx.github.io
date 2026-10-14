@@ -1,0 +1,166 @@
+/*******************************************************************************
+ * Custom styles: publication venue badges
+ ******************************************************************************/
+
+// Venue badges (colors in _data/venues.yml) keep white text whether or not
+// the venue has a link.
+.publications ol.bibliography li .abbr abbr {
+  color: #fff;
+
+  div {
+    color: #fff;
+  }
+}
+
+/*******************************************************************************
+ * Custom styles: research-interest cards on the about page
+ *
+ * One accent color per research topic, matching the topic chips in the CV
+ * (Efficiency, Reasoning, Architecture, Agents). Each card sets --ri-accent;
+ * dark mode switches to lighter variants of the same hues for contrast.
+ ******************************************************************************/
+
+.ri-lead {
+  margin-bottom: 1rem;
+}
+
+.ri-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 0.5rem 0 1.25rem;
+
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.ri-card {
+  --ri-accent: #{$grey-color};
+  position: relative;
+  padding: 0.9rem 1rem 0.85rem;
+  border: 1px solid var(--global-divider-color);
+  border-top: 3px solid var(--ri-accent);
+  border-radius: 0.5rem;
+  background-color: var(--global-card-bg-color);
+  transition:
+    box-shadow 0.15s ease,
+    transform 0.15s ease;
+
+  &:hover {
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    transform: translateY(-1px);
+  }
+
+  &.ri-effic {
+    --ri-accent: rgb(204, 106, 0);
+  }
+  &.ri-reason {
+    --ri-accent: rgb(168, 52, 96);
+  }
+  &.ri-arch {
+    --ri-accent: rgb(98, 70, 170);
+  }
+  &.ri-agents {
+    --ri-accent: rgb(0, 122, 112);
+  }
+
+  .ri-head {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    margin-bottom: 0.45rem;
+  }
+
+  .ri-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.4rem;
+    color: var(--ri-accent);
+    background-color: color-mix(in srgb, var(--ri-accent) 14%, transparent);
+    font-size: 0.95rem;
+  }
+
+  .ri-title {
+    margin: 0;
+    font-size: 1.02rem;
+    font-weight: 600;
+    line-height: 1.25;
+    color: var(--global-text-color);
+  }
+
+  .ri-tag {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ri-accent);
+  }
+
+  .ri-desc {
+    margin: 0 0 0.6rem;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    color: var(--global-text-color);
+  }
+
+  .ri-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin: 0 0 0.6rem;
+    padding: 0;
+    list-style: none;
+
+    li {
+      margin: 0;
+      padding: 0.12rem 0.55rem;
+      border-radius: 999px;
+      font-size: 0.76rem;
+      line-height: 1.5;
+      color: var(--global-text-color);
+      background-color: color-mix(in srgb, var(--ri-accent) 11%, transparent);
+      border: 1px solid color-mix(in srgb, var(--ri-accent) 28%, transparent);
+    }
+  }
+
+  .ri-related {
+    margin: 0;
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
+
+    a {
+      color: var(--ri-accent);
+      font-weight: 500;
+      white-space: nowrap;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+html[data-theme="dark"] .ri-card {
+  &:hover {
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+  }
+
+  &.ri-effic {
+    --ri-accent: rgb(242, 160, 76);
+  }
+  &.ri-reason {
+    --ri-accent: rgb(232, 118, 160);
+  }
+  &.ri-arch {
+    --ri-accent: rgb(172, 150, 240);
+  }
+  &.ri-agents {
+    --ri-accent: rgb(64, 200, 186);
+  }
+}

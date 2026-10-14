@@ -19,66 +19,66 @@
     doi = "10.18653/v1/2026.acl-long.2199",
     pages = "47605--47629",
     ISBN = "979-8-89176-390-6",
+    abbr={ACL},
     bibtex_show={true},
     preview={TokDrift_example.gif},
     pdf={Arxiv_TokDrift.pdf},
     selected={true},
     code={https://github.com/uw-swag/tokdrift},
     abstract={Large language models (LLMs) for code rely on subword tokenizers, such as byte-pair encoding (BPE), learned from mixed natural language text and programming language code but driven by statistics rather than grammar. As a result, semantically identical code snippets can be tokenized differently depending on superficial factors such as whitespace or identifier naming. To measure the impact of this misalignment, we introduce TokDrift, a framework that applies semantic-preserving rewrite rules to create code variants differing only in tokenization. Across nine code LLMs, including large ones with over 30B parameters, even minor formatting changes can cause substantial shifts in model behavior. Layer-wise analysis shows that the issue originates in early embeddings, where subword segmentation fails to capture grammar token boundaries. Our findings identify misaligned tokenization as a hidden obstacle to reliable code understanding and generation, highlighting the need for grammar-aware tokenization for future code LLMs.},
-    url={https://arxiv.org/abs/2510.14972},
     arxiv={2510.14972},
+}
+
+
+@misc{dai2026osworldscience,
+  title={{OSWorld-Science}: A Benchmark of Computer Use Agents for Learning and Using Scientific Software},
+  author={Dingyuan Dai* and Heli Qi* and Lei Liu* and Yinxi Li* and Baiding Chen* and Zijun Dou* and Qingcheng Zeng and Qi Kang and Oliver Sun and Eric Wang and Bo Zhou and Haixin Wang and Yufan Du and Shi Bo and Ruihan Lin and Mengqi Yuan and Dunjie Lu and Steven Dillmann and Yiming Shi and Tina Su and Amy Xin and Minghao Liu and Xi Wang and Xu Huang and Ge Zhang and Pengyu Nie and Zhen Yang and Jie Tang and Juanzi Li and Weihao Xuan and Tianyu Liu},
+  year={2026},
+  month=sep,
+  eprint={2609.39903},
+  archivePrefix={arXiv},
+  url={https://arxiv.org/abs/2609.39903},
+  note={* Equal contribution},
+  abbr={Preprint},
+  arxiv={2609.39903},
+  website={https://discoailab.github.io/osworld-science-page/},
+  preview={osworld-science-preview.mp4},
+  bibtex_show={true},
+  selected={true},
+  abstract={Scientific software presents a demanding test for computer-using agents based on visual language models (VLMs): completing a research workflow requires interpreting specialized interfaces, manipulating scientific objects, and producing verifiable results. We thus introduce OSWorld-Science, a benchmark and evaluation environment that combines scientifically meaningful tasks, artifact-based evaluation, and an efficient agent harness for studying computer use in the scientific domain. The benchmark contains 12 VLMs and 146 high-quality tasks across several scientific domains and software configurations, covering workflows such as molecular drawing and retrosynthesis, pathology image analysis, statistical computing, and physical simulation. Tasks are developed through expert proposals and iterative human--AI co-design, with selection guided by scientific value and difficulty. Task-specific execution-based evaluators inspect application states and generated artifacts, including molecular structures, segmentation masks, plots, and numerical results, and award partial credit for incomplete outcomes. Our special harness integrates model adapters, interaction-loop control, and trajectory logging to support comparisons of models and interaction strategies. Our results show that current state-of-the-art VLMs with a strong harness still face challenges in addressing key questions in the scientific domains. We also analyze the benchmarking results across multi-linguistics, reasoning efforts, context length and other factors and derive several important conclusions and directions to assist future development. Overall, we provide an integrated framework connecting expert-defined scientific goals to verifiable software outcomes, enabling systematic evaluation of both agent capabilities and harness design in scientific workflows.},
 }
 
 
 @inproceedings{li2026learning,
   title={Learning Multi-step Reasoning via Persistent Latent State Propagation},
   author={Yinxi Li and Jiaao Chen and Fang Wu and Jiakai Yu and Heli Qi and Weihao Xuan and Haokai Zhao and Pengyu Nie and Di Jin and Xiangru Tang},
-  booktitle={Workshop on Latent {\&} Implicit Thinking {\textendash} Going Beyond CoT Reasoning},
+  booktitle={ICLR 2026 Workshop on Latent {\&} Implicit Thinking {\textendash} Going Beyond CoT Reasoning},
   year={2026},
+  month=apr,
   url={https://openreview.net/forum?id=Dcv4B1UCuW},
+  abbr={ICLR WS},
+  html={https://openreview.net/forum?id=Dcv4B1UCuW},
+  bibtex_show={true},
   selected={true},
 }
 
 
-@misc{wu2026positionhiddencostsmeasurement,
-      title={Position: The Hidden Costs and Measurement Gaps of Reinforcement Learning with Verifiable Rewards}, 
-      author={Fang Wu and Aaron Tu and Weihao Xuan and Heli Qi and Xu Huang and Qingcheng Zeng and Shayan Talaei and Yijia Xiao and Peng Xia and Xiangru Tang and Yuchen Zhuang and Yinxi Li and Bing Hu and Hanqun Cao and Wenqi Shi and Rui Yang and Nan Liu and Huaxiu Yao and Ge Liu and Li Erran Li and Amin Saberi and Naoto Yokoya and Jure Leskovec and Yejin Choi},
-      year={2026},
-      eprint={2509.21882},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2509.21882}, 
-}
-
-
-@inproceedings{wu2026proteor,
-  title={Proteo-R1: Reasoning Foundation Models for De Novo Protein Design},
-  author={Fang Wu and Weihao Xuan and Heli Qi and Hanqun Cao and Heng-Jui Chang and Zeqi Zhou and Li Erran Li and Haokai Zhao and Jian Ma and Zijian Carl Ma and Yu-Chi Cheng and Kuan Pang and Xiangru Tang and Zehong Wang and Guanlue Li and Hanchen Wang and Kejun Ying and Pan Lu and Chiho Im and Seungju Han and Peng Xia and Tinson Xu and Yinxi Li and Deyao Zhu and Pheng-Ann Heng and Naoto Yokoya and Masashi Sugiyama and Jure Leskovec and Yejin Choi},
-  booktitle={Forty-third International Conference on Machine Learning},
-  year={2026},
-  url={https://openreview.net/forum?id=dDowWwInhz}
-}
-
-
-@misc{wu2026noiseratermetalearnednoisevaluation,
-      title={NoiseRater: Meta-Learned Noise Valuation for Diffusion Model Training}, 
-      author={Fang Wu and Haokai Zhao and Da Xing and Hanqun Cao and Tinson Xu and Yanchao Li and Xiangru Tang and Zehong Wang and Aaron Tu and Kuan Pang and Hanchen Wang and Hongbin Lin and Zeqi Zhou and Yinxi Li and Peng Xia and Li Erran Li and Molei Tao and Jure Leskovec and Aditya Joshi and Yejin Choi},
-      year={2026},
-      eprint={2605.08144},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2605.08144}, 
-}
-
 @misc{hotsko2026code2lorahypernetworkgeneratedadapterscode,
-      title={Code2LoRA: Hypernetwork-Generated Adapters for Code Language Models under Software Evolution}, 
-      author={Liliana Hotsko and Yinxi Li and Yuntian Deng and Pengyu Nie},
-      year={2026},
-      eprint={2606.06492},
-      archivePrefix={arXiv},
-      primaryClass={cs.SE},
-      url={https://arxiv.org/abs/2606.06492}, 
+  title={Code2LoRA: Hypernetwork-Generated Adapters for Code Language Models under Software Evolution},
+  author={Liliana Hotsko and Yinxi Li and Yuntian Deng and Pengyu Nie},
+  year={2026},
+  month=jun,
+  eprint={2606.06492},
+  archivePrefix={arXiv},
+  primaryClass={cs.SE},
+  url={https://arxiv.org/abs/2606.06492},
+  abbr={Preprint},
+  arxiv={2606.06492},
+  website={https://lilianahotsko.github.io/Code2LoRA/},
+  bibtex_show={true},
+  abstract={Code language models need repository-level context to resolve imports, APIs, and project conventions. Existing methods inject this knowledge as long inputs (retrieved through RAG or dependency analysis) or through per-repository fine-tuning and LoRA -- costly at repository scale and brittle to evolving codebases. We introduce Code2LoRA, a hypernetwork framework that generates repository-specific LoRA adapters, effectively injecting repository knowledge with zero inference-time token overhead. Code2LoRA supports two usage scenarios: Code2LoRA-Static converts a single repository snapshot into an adapter, suitable for comprehension of stable codebases; while Code2LoRA-Evo maintains an adapter backed by a GRU hidden state updated per code diff, suitable for active development of evolving codebases. To evaluate Code2LoRA against parameter-efficient fine-tuning baselines, we build RepoPeftBench, a benchmark of 604 Python repositories with two tracks: a static track with 40K training and 12K test assertion-completion tasks, and an evolution track with 215K commit-derived training and 87K commit-derived test tasks. On the static track, Code2LoRA-Static achieves 63.8% cross-repo and 66.2% in-repo exact match, matching the per-repository LoRA upper bound; on the evolution track, Code2LoRA-Evo achieves 60.3% cross-repo exact match (+5.2 pp over a single shared LoRA). Code2LoRA's code can be found at https://anonymous.4open.science/r/code2lora-6857; the model checkpoints and RepoPeftBench datasets can be found at https://huggingface.co/code2lora.},
 }
+
 
 @misc{xuan2026learning,
   author       = {Xuan, Weihao and Zeng, Qingcheng and Liu, Jiarui
@@ -99,5 +99,55 @@
   month        = aug,
   howpublished = {SSRN},
   note         = {SSRN working paper No. 7319678},
-  url          = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7319678}
+  url          = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7319678},
+  abbr         = {Survey},
+  html         = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7319678},
+  bibtex_show  = {true},
+}
+
+
+@inproceedings{wu2026proteor,
+  title={Proteo-R1: Reasoning Foundation Models for De Novo Protein Design},
+  author={Fang Wu and Weihao Xuan and Heli Qi and Hanqun Cao and Heng-Jui Chang and Zeqi Zhou and Li Erran Li and Haokai Zhao and Jian Ma and Zijian Carl Ma and Yu-Chi Cheng and Kuan Pang and Xiangru Tang and Zehong Wang and Guanlue Li and Hanchen Wang and Kejun Ying and Pan Lu and Chiho Im and Seungju Han and Peng Xia and Tinson Xu and Yinxi Li and Deyao Zhu and Pheng-Ann Heng and Naoto Yokoya and Masashi Sugiyama and Jure Leskovec and Yejin Choi},
+  booktitle={Forty-third International Conference on Machine Learning},
+  year={2026},
+  month=jul,
+  url={https://openreview.net/forum?id=dDowWwInhz},
+  abbr={ICML},
+  arxiv={2605.02937},
+  website={https://smiles724.github.io/r1/},
+  bibtex_show={true},
+  abstract={Deep learning in de novo protein design has achieved atomic-level fidelity. However, existing models remain largely non-deliberative: they directly synthesize molecular geometries without explicitly reasoning about which residues or interactions are functionally essential. As a result, design decisions are entangled with continuous sampling dynamics, limiting interpretability, controllability, and systematic reuse of biochemical knowledge. We introduce Proteo-R1, a reasoning-guided protein design framework that explicitly decouples molecular understanding from geometric generation. Proteo-R1 adopts a dual-expert architecture in which a multimodal large language model (MLLM) serves as an understanding expert, analyzing protein sequences, structures, and textual context to identify key functional residues that govern binding and specificity. These residue-level decisions are then passed as hard constraints to a separate diffusion-based generation expert, which performs conditional co-design while respecting the fixed interaction anchors. This factorization mirrors how human experts approach molecular engineering: first, reasoning about critical interactions, then optimizing geometry subject to those constraints. By operationalizing reasoning as explicit residue-level commitments rather than latent textual guidance, Proteo-R1 achieves stable, interpretable, and modular integration of LLM reasoning with state-of-the-art geometric generative models. Code, data, and demos are available at https://smiles724.github.io/r1/.},
+}
+
+
+@misc{wu2026positionhiddencostsmeasurement,
+  title={Position: The Hidden Costs and Measurement Gaps of Reinforcement Learning with Verifiable Rewards},
+  author={Fang Wu and Aaron Tu and Weihao Xuan and Heli Qi and Xu Huang and Qingcheng Zeng and Shayan Talaei and Yijia Xiao and Peng Xia and Xiangru Tang and Yuchen Zhuang and Yinxi Li and Bing Hu and Hanqun Cao and Wenqi Shi and Rui Yang and Nan Liu and Huaxiu Yao and Ge Liu and Li Erran Li and Amin Saberi and Naoto Yokoya and Jure Leskovec and Yejin Choi},
+  year={2026},
+  eprint={2509.21882},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2509.21882},
+  abbr={Preprint},
+  arxiv={2509.21882},
+  bibtex_show={true},
+  abstract={Reinforcement learning with verifiable rewards (RLVR) is a practical, scalable way to improve large language models on math, code, and other structured tasks. However, we argue that many headline RLVR gains are not yet well validated because reports often conflate policy improvement with three confounds: (i) budget mismatch between RLVR and baseline evaluations, (ii) attempt inflation and calibration drift that convert abstentions into confident answers, and (iii) benchmark data contamination. Using budget-matched reproductions and partial-prompt contamination probes, we find that several widely cited gaps shrink substantially or disappear once budgets, prompts, and dataset versions are matched and contaminated sets are treated as memorization probes rather than evidence of reasoning. This does not mean that RLVR is ineffective, but it implies that current measurements often overstate capability gains and obscure reliability costs. We therefore propose a compact, tax-aware minimum standard for RLVR training and evaluation: budget-matched saturation curves with variance, calibration, and abstention tracking, a judge-robustness stress test when LLM judges are used, and an explicit contamination screen. With these controls, RLVR remains effective and deployable in verifiable domains, but reasoning gains should be treated as provisional without them.},
+}
+
+
+@misc{wu2026noiseratermetalearnednoisevaluation,
+  title={NoiseRater: Meta-Learned Noise Valuation for Diffusion Model Training},
+  author={Fang Wu and Haokai Zhao and Da Xing and Hanqun Cao and Tinson Xu and Yanchao Li and Xiangru Tang and Zehong Wang and Aaron Tu and Kuan Pang and Hanchen Wang and Hongbin Lin and Zeqi Zhou and Yinxi Li and Peng Xia and Li Erran Li and Molei Tao and Jure Leskovec and Aditya Joshi and Yejin Choi},
+  year={2026},
+  month=may,
+  eprint={2605.08144},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2605.08144},
+  abbr={Preprint},
+  arxiv={2605.08144},
+  code={https://github.com/JoeZhao527/Noise-Rater},
+  bibtex_show={true},
+  abstract={Training a diffusion model involves two sources of randomness for each data sample: the timestep and the Gaussian noise realization. The timestep has been studied extensively through scheduling and weighting, whereas the impact of the noise realization at a given timestep is still underexplored. In this work, we examine whether different noise instances are equally informative. We introduce NoiseRater, a network that scores an individual noise instance conditioned on the data sample and timestep. The rater is learned through bilevel optimization, where its scores reweight the diffusion loss in the inner loop, and it is updated to reduce validation loss after the inner-loop updates. Using the trained rater to select training noise, we observe three properties of training noise. First, noise realizations at the same timestep are not equally useful: the rater's top-scored noise improves performance over i.i.d.\ sampling, while its bottom-scored noise degrades it. Second, this utility is contextual, depending jointly on the image, the class, and the timestep. Third, noise selection is complementary to timestep-level design, retaining most of its gain when combined with existing scheduling and weighting schemes. These findings establish instance-level noise valuation as a new axis for understanding and improving diffusion training. Code is available at https://github.com/JoeZhao527/Noise-Rater.},
 }
