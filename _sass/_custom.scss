@@ -21,14 +21,17 @@
  ******************************************************************************/
 
 .ri-lead {
-  margin-bottom: 1rem;
+  max-width: 52rem;
+  margin-bottom: 1.25rem;
+  line-height: 1.65;
 }
 
 .ri-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
-  margin: 0.5rem 0 1.25rem;
+  clear: both;
+  gap: 1.1rem;
+  margin: 0.5rem 0 1rem;
 
   @media (max-width: 767px) {
     grid-template-columns: 1fr;
@@ -37,23 +40,17 @@
 
 .ri-card {
   --ri-accent: #{$grey-color};
-  position: relative;
-  padding: 0.9rem 1rem 0.85rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 1.25rem;
   border: 1px solid var(--global-divider-color);
   border-top: 3px solid var(--ri-accent);
-  border-radius: 0.5rem;
+  border-radius: 0.75rem;
   background-color: var(--global-card-bg-color);
-  transition:
-    box-shadow 0.15s ease,
-    transform 0.15s ease;
-
-  &:hover {
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
-    transform: translateY(-1px);
-  }
 
   &.ri-effic {
-    --ri-accent: rgb(204, 106, 0);
+    --ri-accent: rgb(157, 81, 0);
   }
   &.ri-reason {
     --ri-accent: rgb(168, 52, 96);
@@ -68,8 +65,8 @@
   .ri-head {
     display: flex;
     align-items: center;
-    gap: 0.55rem;
-    margin-bottom: 0.45rem;
+    gap: 0.75rem;
+    margin-bottom: 0.9rem;
   }
 
   .ri-icon {
@@ -77,80 +74,105 @@
     align-items: center;
     justify-content: center;
     flex: 0 0 auto;
-    width: 2rem;
-    height: 2rem;
-    border-radius: 0.4rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 0.65rem;
     color: var(--ri-accent);
-    background-color: color-mix(in srgb, var(--ri-accent) 14%, transparent);
-    font-size: 0.95rem;
+    background-color: color-mix(in srgb, var(--ri-accent) 9%, transparent);
+    font-size: 1rem;
   }
 
   .ri-title {
     margin: 0;
     font-size: 1.02rem;
     font-weight: 600;
-    line-height: 1.25;
+    line-height: 1.35;
     color: var(--global-text-color);
   }
 
   .ri-tag {
     display: block;
+    margin-bottom: 0.2rem;
     font-size: 0.7rem;
     font-weight: 700;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--ri-accent);
   }
 
   .ri-desc {
-    margin: 0 0 0.6rem;
-    font-size: 0.9rem;
-    line-height: 1.45;
+    margin: 0 0 1rem;
+    font-size: 0.92rem;
+    line-height: 1.65;
     color: var(--global-text-color);
   }
 
   .ri-chips {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.35rem;
-    margin: 0 0 0.6rem;
+    gap: 0.4rem;
+    margin: auto 0 0;
     padding: 0;
     list-style: none;
 
     li {
       margin: 0;
-      padding: 0.12rem 0.55rem;
-      border-radius: 999px;
+      max-width: 100%;
+      padding: 0.2rem 0.55rem;
+      border-radius: 0.35rem;
       font-size: 0.76rem;
       line-height: 1.5;
       color: var(--global-text-color);
-      background-color: color-mix(in srgb, var(--ri-accent) 11%, transparent);
-      border: 1px solid color-mix(in srgb, var(--ri-accent) 28%, transparent);
-    }
-  }
-
-  .ri-related {
-    margin: 0;
-    font-size: 0.8rem;
-    color: var(--global-text-color-light);
-
-    a {
-      color: var(--ri-accent);
-      font-weight: 500;
-      white-space: nowrap;
-
-      &:hover {
-        text-decoration: underline;
-      }
+      overflow-wrap: anywhere;
+      background-color: color-mix(in srgb, var(--ri-accent) 6%, transparent);
+      border: 1px solid color-mix(in srgb, var(--ri-accent) 15%, transparent);
     }
   }
 }
 
-html[data-theme="dark"] .ri-card {
-  &:hover {
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+.ri-work {
+  margin: 0 0 1.5rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--global-divider-color);
+  font-size: 0.85rem;
+  line-height: 1.65;
+
+  summary {
+    width: fit-content;
+    padding: 0.35rem 0;
+    color: var(--global-text-color);
+    font-weight: 500;
+    cursor: pointer;
   }
 
+  summary:focus-visible,
+  a:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 4px;
+    border-radius: 0.15rem;
+  }
+
+  .ri-work-links {
+    padding-top: 0.5rem;
+  }
+
+  p {
+    margin: 0 0 0.4rem;
+  }
+
+  strong {
+    margin-right: 0.5rem;
+    font-weight: 500;
+  }
+
+  a {
+    overflow-wrap: anywhere;
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+  }
+}
+
+html[data-theme="dark"] .ri-card {
   &.ri-effic {
     --ri-accent: rgb(242, 160, 76);
   }

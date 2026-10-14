@@ -32,82 +32,83 @@ My research is supported by grants from Prof. Nie's research group, funded by th
 
 #### 💻 Research Interests
 
-<p class="ri-lead">I study how LLMs and LLM agents use, compress, and adapt their context at test time, and how to make that computation efficient on real inference infrastructure. My work spans four connected directions:</p>
+<p class="ri-lead">I study how language models and agents reason, learn from experience, and use computation efficiently. My interests span four connected directions:</p>
 
 <div class="ri-grid">
 <div class="ri-card ri-effic">
 <div class="ri-head">
-<span class="ri-icon"><i class="fa-solid fa-bolt"></i></span>
+<span class="ri-icon" aria-hidden="true"><i class="fa-solid fa-bolt"></i></span>
 <div>
 <span class="ri-tag">Efficiency</span>
-<h5 class="ri-title">Efficient Inference &amp; Context-to-Weights</h5>
+<h5 class="ri-title">Efficient Inference</h5>
 </div>
 </div>
-<p class="ri-desc">Making LLMs and agents cheaper to run, from the inference engine up: deciding what context to keep, compress, or move into weights, and serving long agentic workloads efficiently.</p>
+<p class="ri-desc">Making LLMs and agents more efficient by rethinking how they use computation, memory, and context, with a focus on scalable inference and serving for long-running tasks.</p>
 <ul class="ri-chips">
-<li>KV-cache compression &amp; eviction</li>
+<li>KV-cache compression & eviction</li>
 <li>Agent-aware serving (vLLM / SGLang)</li>
-<li>Context &amp; KV memory to weights</li>
-<li>Hypernetwork-generated adapters</li>
-<li>Efficient computer-use agents</li>
+<li>Context & KV memory to weights</li>
+<li>Agent Efficiency</li>
 </ul>
-<p class="ri-related">Related: <a href="/publications/#hotsko2026code2lorahypernetworkgeneratedadapterscode">Code2LoRA</a> · ongoing work on KV-cache eviction for hybrid-attention reasoning models</p>
 </div>
 <div class="ri-card ri-reason">
 <div class="ri-head">
-<span class="ri-icon"><i class="fa-solid fa-brain"></i></span>
+<span class="ri-icon" aria-hidden="true"><i class="fa-solid fa-brain"></i></span>
 <div>
 <span class="ri-tag">Reasoning</span>
-<h5 class="ri-title">Latent, Looped &amp; Search-Based Reasoning</h5>
+<h5 class="ri-title">Latent, Looped &amp; Agentic Reasoning</h5>
 </div>
 </div>
-<p class="ri-desc">How models reason beyond explicit chains of thought, through persistent latent states, recursion, and search, and how reasoning gains should be measured.</p>
+<p class="ri-desc">Understanding how LLMs reason beyond explicit CoT, and how learning and test-time computation can make reasoning more effective and reliable.</p>
 <ul class="ri-chips">
-<li>Latent &amp; looped reasoning</li>
-<li>Agentic search</li>
-<li>Code LMs &amp; test generation</li>
-<li>RL with verifiable rewards</li>
-<li>Reasoning for protein design</li>
+<li>Latent & looped reasoning</li>
+<li>Coding agents</li>
+<li>Agentic deep research</li>
+<li>Test-time scaling</li>
 </ul>
-<p class="ri-related">Related: <a href="/publications/#li2026learning">Latent State Propagation</a> · <a href="https://github.com/larryinx/QRM">QRM</a> · <a href="/publications/#wu2026positionhiddencostsmeasurement">RLVR Position</a> · <a href="/publications/#wu2026proteor">Proteo-R1</a></p>
 </div>
 <div class="ri-card ri-arch">
 <div class="ri-head">
-<span class="ri-icon"><i class="fa-solid fa-layer-group"></i></span>
+<span class="ri-icon" aria-hidden="true"><i class="fa-solid fa-layer-group"></i></span>
 <div>
 <span class="ri-tag">Architecture</span>
 <h5 class="ri-title">LLM Architecture &amp; Mechanisms</h5>
 </div>
 </div>
-<p class="ri-desc">Understanding model internals, from tokenization to hidden states, and exploring architectural changes with an eye to how they scale on existing inference infrastructure.</p>
+<p class="ri-desc">Investigating how model architectures and internal representations shape learning and reasoning, and exploring designs that balance expressive power, computational efficiency, and scalability.</p>
 <ul class="ri-chips">
 <li>Tokenization</li>
-<li>Hidden-state analysis</li>
-<li>Quantized latent states</li>
+<li>Hidden representations</li>
 <li>Looped LLMs</li>
-<li>Hybrid-attention models</li>
+<li>Hybrid attention</li>
+<li>Quantized latent states</li>
 </ul>
-<p class="ri-related">Related: <a href="/publications/#li-etal-2026-tokdrift">TokDrift</a> · <a href="https://github.com/larryinx/QRM">QRM</a></p>
 </div>
 <div class="ri-card ri-agents">
 <div class="ri-head">
-<span class="ri-icon"><i class="fa-solid fa-robot"></i></span>
+<span class="ri-icon" aria-hidden="true"><i class="fa-solid fa-robot"></i></span>
 <div>
 <span class="ri-tag">Agents</span>
 <h5 class="ri-title">LLM Agents &amp; Test-Time Learning</h5>
 </div>
 </div>
-<p class="ri-desc">Agents that learn from their own experience and operate real software, with an eye to what their learning and behavior cost to serve.</p>
+<p class="ri-desc">Building agents that learn from experience, retain useful knowledge, and adapt their behavior over time, with a focus on sustained interaction with software and evolving environments.</p>
 <ul class="ri-chips">
-<li>Self-evolving agents &amp; harnesses</li>
+<li>Self-evolving agents & harnesses</li>
 <li>Agent memory</li>
 <li>Computer-use agents</li>
-<li>Agents for scientific software</li>
 <li>Agents for ML engineering</li>
 </ul>
-<p class="ri-related">Related: <a href="/publications/#dai2026osworldscience">OSWorld-Science</a> · <a href="/publications/#xuan2026learning">Learning from Use (survey)</a></p>
 </div>
 </div>
+
+<details class="ri-work">
+<summary>Selected work</summary>
+<div class="ri-work-links">
+<p><strong>Architecture</strong> <a href="/publications/#li-etal-2026-tokdrift">TokDrift</a></p>
+<p><strong>Agents</strong> <a href="/publications/#dai2026osworldscience">OSWorld-Science</a> · <a href="/publications/#xuan2026learning">Learning from Use (survey)</a></p>
+</div>
+</details>
 
 I am open to academic and research collaborations and welcome any questions or discussions.
 
