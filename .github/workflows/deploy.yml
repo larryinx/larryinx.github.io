@@ -31,16 +31,8 @@ jobs:
           ruby-version: "3.3" # latest 3.3.x; never pin a patch version here
           bundler-cache: true # caches gems between runs
 
-      - name: Setup Python (nbconvert for notebook posts)
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.13"
-          cache: pip
-
-      - name: Install ImageMagick and nbconvert
-        run: |
-          sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick
-          pip3 install -q -r requirements.txt
+      - name: Install ImageMagick (responsive images)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick
 
       - name: Build site
         env:
