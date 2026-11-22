@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎊 Our new paper, **"FINDER: Studying and Repairing What Test-Time Learning Changes in Deep-Research Agents,"** has been accepted to **[WSDM 2027](https://www.wsdm-conference.org/2027/)**! The arXiv preprint is coming soon. See you in HK!
+🎊 Our new paper, **"FINDER: Studying and Repairing What Test-Time Learning Changes in Deep-Research Agents,"** has been accepted to **[WSDM 2027 (main oral)](https://www.wsdm-conference.org/2027/)**! The arXiv preprint is coming soon. See you in HK!
